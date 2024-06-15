@@ -62,23 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/etc/sensors/config/sns_pedometer.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_pedometer.json \
     vendor/motorola/borneo/proprietary/vendor/etc/sensors/config/sns_smd.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_smd.json \
     vendor/motorola/borneo/proprietary/vendor/etc/sensors/config/tmd2755_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tmd2755_0.json \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/qti_gravity.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/qti_gravity.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_async_com_port.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_async_com_port.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_ccd_ttw.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ccd_ttw.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_ccd_walk.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_ccd_walk.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_cmd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_cmd.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_dae.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_dae.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_data_acquisition_engine.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_data_acquisition_engine.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_distance_bound.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_distance_bound.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_interrupt.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_interrupt.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_mcmd.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_mcmd.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_motion_detect.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_motion_detect.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_multishake.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_multishake.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_remote_proc_state.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_remote_proc_state.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_signal_sensor.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_signal_sensor.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_sim.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sim.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_sim_legacy.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_sim_legacy.proto \
-    vendor/motorola/borneo/proprietary/vendor/etc/sensors/proto/sns_timer.proto:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/proto/sns_timer.proto \
     vendor/motorola/borneo/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/motorola/borneo/proprietary/vendor/etc/thermal-engine-borneo.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-borneo.conf \
     vendor/motorola/borneo/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
@@ -94,14 +77,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/borneo/proprietary/vendor/firmware/a702_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a702_sqe.fw \
     vendor/motorola/borneo/proprietary/vendor/firmware/aw882xx_mono.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_mono.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/aw882xx_spk_reg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_spk_reg.bin \
-    vendor/motorola/borneo/proprietary/vendor/firmware/focaltech-djnboe-ft8009-07-000-borneo.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-djnboe-ft8009-07-000-borneo.bin \
-    vendor/motorola/borneo/proprietary/recovery/root/vendor/firmware/focaltech-djnboe-ft8009-07-000-borneo.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech-djnboe-ft8009-07-000-borneo.bin \
+    vendor/motorola/borneo/proprietary/recovery/root/vendor/firmware/focaltech_ts_fw_djnboe.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/focaltech_ts_fw_djnboe.bin \
+    vendor/motorola/borneo/proprietary/vendor/firmware/focaltech_ts_fw_djnboe.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ts_fw_djnboe.bin \
     vendor/motorola/borneo/proprietary/vendor/firmware/ilitek_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ilitek_fw.bin \
     vendor/motorola/borneo/proprietary/recovery/root/vendor/firmware/ilitek_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/ilitek_fw.bin \
-    vendor/motorola/borneo/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
-    vendor/motorola/borneo/proprietary/recovery/root/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_fw.bin \
-    vendor/motorola/borneo/proprietary/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_mp.bin \
-    vendor/motorola/borneo/proprietary/recovery/root/vendor/firmware/novatek_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/novatek_ts_mp.bin \
+    vendor/motorola/borneo/proprietary/recovery/root/vendor/firmware/djn_novatek_ts_fw.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/djn_novatek_ts_fw.bin \
+    vendor/motorola/borneo/proprietary/vendor/firmware/djn_novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn_novatek_ts_fw.bin \
+    vendor/motorola/borneo/proprietary/recovery/root/vendor/firmware/djn_novatek_ts_mp.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/djn_novatek_ts_mp.bin \
+    vendor/motorola/borneo/proprietary/vendor/firmware/djn_novatek_ts_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/djn_novatek_ts_mp.bin \
     vendor/motorola/borneo/proprietary/vendor/lib/libcamxexternalformatutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxexternalformatutils.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so \
     vendor/motorola/borneo/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p64b_ov02b10_eeprom.so \
